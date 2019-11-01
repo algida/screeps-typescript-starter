@@ -19,5 +19,8 @@
   },
   "[typescript]": {
     "editor.formatOnSave": true
-  }
+  },
+  "jshint.options": {
+    "esversion":8,
+},
 }

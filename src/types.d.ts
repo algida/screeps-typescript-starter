@@ -5,11 +5,14 @@ interface CreepMemory {
   role: string;
   room: string;
   working: boolean;
+  containerId: string;
+  sourceId: string;
 }
 
 interface Memory {
   uuid: number;
   log: any;
+  lastWallRepairedWithHP: number;
 }
 
 // `global` extension samples
